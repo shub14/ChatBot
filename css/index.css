@@ -1,0 +1,13 @@
+iframe{
+    width: 30%;
+    height: 1040px;
+    display: block;
+    border: none;
+}
+
+#chatButton{
+    padding: 16px;
+    font-size: 50px;
+    background: transparent;
+    border-radius: 50%;
+}

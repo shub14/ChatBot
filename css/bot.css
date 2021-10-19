@@ -1,0 +1,123 @@
+@keyframes loadBotCard {
+    from {display: none;}
+    to {display: block;}
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#welcome-panel{
+    margin: 20px;
+    float: left;
+    position: relative;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+    height: 990px;
+    border-radius: 25px 25px 25px 25px;
+}
+.stack-top{
+    margin-left: 20px;
+    margin-top: -50px;
+    width: 600px !important;
+    position: absolute;
+    z-index: 15;
+}
+
+.handIcon{
+    width: 47px;
+    height: 33px;
+    margin-left: 20px;
+}
+
+#botBtn{
+    background: none;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #f97313;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: -20px 70px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+}
+
+.box{
+    background-color: #f97313;
+    color: white;
+    border-radius: 25px 25px 0px 0px;
+    width: 640px;
+    margin-top: -42px;
+    height: 350px;
+    position: relative;
+    animation-name: loadBotCard;
+    animation-delay: 1s;
+}
+
+#chatBox{
+    background: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+}
+
+.newConversationBtn{
+    padding: 16px;
+    background: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 27%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border:0.5px solid darkgray;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
+}
+
+#questionList{
+    list-style: none;
+}
+
+.bulletIcon{
+    margin-right: 10px;
+    color: #f97313;
+}
+
+li{
+    padding: 25px;
+    margin: 2em;
+    border-radius: 10px;
+    border: 0.5px solid darkgray;
+    font-size: 18px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+}
+ h2{
+    font-size: 50px;
+    margin-left: 75px;
+    padding-top: 20px;
+ }
+  
+ h3{
+    margin-left: 75px;
+    font-size: 35px;
+ }
+
+ h4{
+     font-size: 23px;
+ }
+ p{
+    margin-left: 75px;
+    font-size: 28px;
+ }
+
+ .questionIcon{
+    color: #f97313;
+ }
+
+ .chatIcon{
+    position: absolute;
+    z-index: 40;
+ }
