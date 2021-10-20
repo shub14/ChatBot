@@ -1,13 +1,24 @@
 iframe{
-    width: 30%;
+    width: 60%;
     height: 1040px;
     display: block;
     border: none;
+    float: left;
+    transition: all .5s ease-in-out;
+    opacity: 0;
 }
 
 #chatButton{
-    padding: 16px;
-    font-size: 50px;
-    background: transparent;
-    border-radius: 50%;
+        font-size: 50px;
+        background: transparent;
+        border-radius: 50%;
+        background-color: #f97313;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        position: fixed;
+        bottom: 23px;
+        right: 28px;
 }

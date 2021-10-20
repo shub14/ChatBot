@@ -8,6 +8,11 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
+#wrapper{
+    height:50px;
+    margin: 0 auto;
+}
+
 #welcome-panel{
     margin: 20px;
     float: left;
@@ -25,8 +30,8 @@ body{
 }
 
 .handIcon{
-    width: 47px;
-    height: 33px;
+    width: 45px;
+    height: 40px;
     margin-left: 20px;
 }
 
@@ -46,7 +51,7 @@ body{
     box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
 }
 
-.box{
+#box{
     background-color: #f97313;
     color: white;
     border-radius: 25px 25px 0px 0px;
@@ -54,15 +59,25 @@ body{
     margin-top: -42px;
     height: 350px;
     position: relative;
-    animation-name: loadBotCard;
-    animation-delay: 1s;
+    transition: all .5s ease-in-out;
+    opacity: 0;
 }
 
+#content{
+    transition-delay: 10s;
+    transition: all 2s ease-in-out;
+    opacity: 0;
+}
 #chatBox{
     background: white;
     color: black;
     border-radius: 15px;
     box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    opacity: 0;
 }
 
 .newConversationBtn{
